@@ -2,7 +2,7 @@
 const urlName = new URLSearchParams(window.location.search).get('name')
 
 export const CONFIG = {
-  friendName: urlName || 'Special Human',   // <-- put her name here
+  friendName: urlName || 'Moonelle',   // <-- put her name here
   welcomeTitle: 'Heyyy! Someone Special... ❤️',
   welcomeSub: 'I have a little surprise for you. But first, you need to complete a tiny mission!',
   finalTitle: 'Happy Diwali, {name}! ❤️🪔',  // {name} is replaced automatically
